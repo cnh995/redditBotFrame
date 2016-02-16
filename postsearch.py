@@ -1,7 +1,15 @@
-#PASTE INTO BOT.PY
+#PASTE INTO FILE CREATION AREA OF BOT.PY
+if not os.path.isfile("postsRepliedTo.txt"):
+    postsRepliedTo = []
+else:
+    with open("postsRepliedTo.txt", "r") as f:
+        postsRepliedTo = f.read()
+        postsRepliedTo = postsRepliedTo.split("\n")
+        #commentsRepliedTo = filter(None, postsRepliedTo)
+        #python doesn't like the line above
 
 
-
+#PASTE INTO FUNCTION AREA OF BOT.PY
     submissions = subreddit.get_hot(limit = 50) #can change to find new post, hot posts, controversial, etc
     keywords = [''] #looks for keywords in post title
     for submission in submissions:
