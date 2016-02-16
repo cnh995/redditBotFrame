@@ -4,8 +4,8 @@ if not os.path.isfile("commentsRepliedTo.txt"):
 else:
     with open("commentsRepliedTo.txt", "r") as f:
         commentsRepliedTo = f.read()
-        commentsRepliedTo = postsRepliedTo.split("\n")
-        #commentsRepliedTo = filter(None, postsRepliedTo)
+        commentsRepliedTo = commentsRepliedTo.split("\n")
+        #commentsRepliedTo = filter(None, commentsRepliedTo)
         #python doesn't like the line above
 
 
