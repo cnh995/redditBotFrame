@@ -18,6 +18,6 @@ else:
         if postMatch and submission.id not in postsRepliedTo:
             submission.add_comment('') #enter comment text in quotes
             postsRepliedTo.append(submission.id)
-            with open("postsRepliedTo.txt", "w") as f:
+            with open("postsRepliedTo.txt", "w") as f: #adds comment id to a list, so it will never be replied to again
                 for post_id in postsRepliedTo:
                     f.write(post_id + "\n")
