@@ -6,7 +6,11 @@ import pdb
 import re
 from RedditBot import *
 
-#INSERT
+#INSERT FILE CREATOR
+#INSERT FILE CREATOR
+#INSERT FILE CREATOR
+#INSERT FILE CREATOR
+#INSERT FILE CREATOR
 
 #logging in to reddit
 r = praw.Reddit(user_agent = "Test bot")
@@ -17,11 +21,11 @@ words = ['build', 'debug', 'post', 'comment']
 
 def run_bot():
     subreddit = r.get_subreddit("") #insert subreddit in double quotes
-#INSERT FUNCTION HERE
-#INSERT FUNCTION HERE
-#INSERT FUNCTION HERE
-#INSERT FUNCTION HERE
-#INSERT FUNCTION HERE
+    #INSERT FUNCTION HERE
+    #INSERT FUNCTION HERE
+    #INSERT FUNCTION HERE
+    #INSERT FUNCTION HERE
+    #INSERT FUNCTION HERE
 
 #puts bot to sleep after running out of posts or comments to look for
 while True:
