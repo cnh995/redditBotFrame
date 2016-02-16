@@ -6,15 +6,7 @@ import pdb
 import re
 from RedditBot import *
 
-#create a text file to store which posts have been replied to
-if not os.path.isfile("postsRepliedTo.txt"):
-    postsRepliedTo = []
-else:
-    with open("postsRepliedTo.txt", "r") as f:
-        postsRepliedTo = f.read()
-        postsRepliedTo = postsRepliedTo.split("\n")
-        #postsRepliedTo = filter(None, postsRepliedTo)
-        #python does not like the above line, so it can be excluded
+#INSERT
 
 #logging in to reddit
 r = praw.Reddit(user_agent = "Test bot")
@@ -24,9 +16,12 @@ r.login("", "") #("USER", "PASS")
 words = ['build', 'debug', 'post', 'comment']
 
 def run_bot():
-#INSERT CODE HERE DEPENDING ON COMMENT OR POST SEARCH
-#
-#
+    subreddit = r.get_subreddit("") #insert subreddit in double quotes
+#INSERT FUNCTION HERE
+#INSERT FUNCTION HERE
+#INSERT FUNCTION HERE
+#INSERT FUNCTION HERE
+#INSERT FUNCTION HERE
 
 #puts bot to sleep after running out of posts or comments to look for
 while True:
