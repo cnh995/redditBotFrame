@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin//python3
 # -*- coding: utf-8 -*- 
 #Above lines are added for Linux compatibility
 
