@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+#Above lines are added for Linux compatibility
+
 #import
 import praw
 import time
