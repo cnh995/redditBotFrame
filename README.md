@@ -1,4 +1,4 @@
-# redditbotframe
+# redditBotFrame
 
 This repo will contain the necessary Python files and text to create a Reddit bot.
 
